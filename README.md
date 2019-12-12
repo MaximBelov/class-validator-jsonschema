@@ -10,7 +10,7 @@ Convert [class-validator](https://github.com/typestack/class-validator)-decorate
 ## Usage
 
 ```typescript
-import { getFromContainer, IsOptional, IsString, MaxLength, MetadataStorage } from 'class-validator'
+import { getFromContainer, IsOptional, IsString, MaxLength, MetadataStorage } from 'class-validator-min'
 import { validationMetadatasToSchemas } from 'class-validator-jsonschema'
 
 class BlogPost {
@@ -58,7 +58,7 @@ which prints out:
 With `options.additionalConverters` you can add new validation metadata converters or override [the existing ones](src/defaultConverters.ts). Let's say we want to, for example, add a handy `description` field to each `@IsString()`-decorated property:
 
 ```typescript
-import { ValidationTypes } from 'class-validator'
+import { ValidationTypes } from 'class-validator-min'
 
 // ...
 
@@ -99,7 +99,7 @@ type SchemaConverter = (meta: ValidationMetadata, options: IOptions) => SchemaOb
 `class-validator` allows you to define [custom validation classes](https://github.com/typestack/class-validator#custom-validation-classes). You might for example validate that a string's length is between given two values:
 
 ```typescript
-import { Validate, ValidationArguments, ValidatorConstraint, ValidatorConstraintInterface } from 'class-validator'
+import { Validate, ValidationArguments, ValidatorConstraint, ValidatorConstraintInterface } from 'class-validator-min'
 
 // Implementing the validator:
 

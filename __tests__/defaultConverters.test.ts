@@ -1,5 +1,5 @@
 // tslint:disable:object-literal-sort-keys
-import * as validator from 'class-validator'
+import * as validator from 'class-validator-min'
 import * as _ from 'lodash'
 
 import { validationMetadatasToSchemas } from '../src'

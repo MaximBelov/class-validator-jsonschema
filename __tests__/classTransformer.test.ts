@@ -8,7 +8,7 @@ import {
   IsString,
   MetadataStorage,
   ValidateNested
-} from 'class-validator'
+} from 'class-validator-min'
 
 import { validationMetadatasToSchemas } from '../src'
 

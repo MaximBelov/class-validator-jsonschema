@@ -8,7 +8,7 @@ import {
   MetadataStorage,
   ValidateNested,
   ValidationTypes
-} from 'class-validator'
+} from 'class-validator-min'
 import * as _ from 'lodash'
 
 import { validationMetadatasToSchemas } from '../src'

@@ -12,8 +12,8 @@ import {
   MetadataStorage,
   MinLength,
   ValidateNested
-} from 'class-validator'
-import { ValidationMetadata } from 'class-validator/metadata/ValidationMetadata'
+} from 'class-validator-min'
+import { ValidationMetadata } from 'class-validator-min/metadata/ValidationMetadata'
 import * as _ from 'lodash'
 
 import { validationMetadatasToSchemas } from '../src'

@@ -1,5 +1,5 @@
 import { MetadataStorage } from 'class-transformer/metadata/MetadataStorage' // tslint:disable-line:no-submodule-imports
-import { ValidatorOptions } from 'class-validator'
+import { ValidatorOptions } from 'class-validator-min'
 
 import { ISchemaConverters } from './defaultConverters'
 

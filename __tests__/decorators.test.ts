@@ -7,7 +7,7 @@ import {
   IsMongoId,
   MaxLength,
   MetadataStorage
-} from 'class-validator'
+} from 'class-validator-min'
 import * as _ from 'lodash'
 
 import { JSONSchema, validationMetadatasToSchemas } from '../src'

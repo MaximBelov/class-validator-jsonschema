@@ -1,6 +1,6 @@
 // tslint:disable:no-submodule-imports
-import { ValidationTypes } from 'class-validator'
-import { ValidationMetadata } from 'class-validator/metadata/ValidationMetadata'
+import { ValidationTypes } from 'class-validator-min'
+import { ValidationMetadata } from 'class-validator-min/metadata/ValidationMetadata'
 import * as _ from 'lodash'
 import { SchemaObject } from 'openapi3-ts'
 import 'reflect-metadata'

@@ -10,7 +10,7 @@ import {
   MaxLength,
   MetadataStorage,
   MinLength
-} from 'class-validator'
+} from 'class-validator-min'
 import * as _ from 'lodash'
 
 import { JSONSchema, validationMetadatasToSchemas } from '../src'
